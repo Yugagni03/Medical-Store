@@ -1,0 +1,151 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Set the overall background color for the body */
+    background-color: #f0f0f0; /* Light gray */
+  }
+  
+  header {
+    background-color: #fff; /* Light background for header */
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    color: #333;
+  }
+  
+  .logo img {
+    width: 200px;
+  }
+  
+  .logo h1 {
+    font-size: 1.8em;
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .search{
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 250px;
+  }
+  .contact-info {
+    color: #333;
+  }
+  
+  .banner {
+    background-image: url("shop.jpg");
+    background-size: cover ;
+    padding: 40px 0;
+    text-align: center;
+    height: 800px;
+    width: 100%;
+  }
+  
+  .banner h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .shop-now {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #498bd1;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .products {
+    padding: 40px 0;
+    background-color: #e1effc;
+  }
+  
+  .products h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  /* Set margin bar colors (adjust as needed) */
+  .container {
+    border: 1px solid #ddd; /* Light gray border for container */
+  }
+  
+  .banner,
+  .products {
+    border-top: 1px solid #ddd; /* Light gray border for top of sections */
+  }
+  
+  .product-card {
+    border: 1px solid #eee; /* Light gray border for product cards */
+  }
+ 
+  .card{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #e1effc;
+    padding-left: 200px;
+}
+
+.box{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+.box img{
+    height: 200px;
+    width: 320px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+.box h2{
+    font-weight: bold ;
+}
+#medi{
+    margin-left: 20px;
+}
+#second{
+    padding-left: 380px ;
+}
